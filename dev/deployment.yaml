@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: webapp-container
-        image: your-docker-image:latest
+        image: https://hub.docker.com/r/ochan110/getting-started
         ports:
         - containerPort: 80
 ---
